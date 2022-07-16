@@ -1,0 +1,1352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 1  ;
+}
+.center{
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    max-width: 1192px;
+    justify-content: space-between;
+    z-index: 2;
+}
+header div{
+    display: flex;
+}
+header img{
+    height: 90px;
+}
+header h1{
+    line-height: 90px;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+.nav-menu{
+    list-style: none;
+    line-height: 90px;
+    display: flex;
+}
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+}
+.nav-menu ul li{
+    min-width: 120px;
+}
+.nav-menu ul li a{
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.nav-menu input{
+    font-family: 'Nuosu SIL', serif;
+    height: 40px;
+    margin: 25px auto;
+    width: 200px;
+    border-radius: 65px;
+    border: 1px solid brown;
+    padding-left: 20px;
+    background-image: url(lupa.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-x: 160px;
+    background-position-y: 10px;
+}
+#sign-in{
+    list-style: none;
+    text-align: right;
+    max-width: 400px;
+}
+#sign-in a{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-left: 15px;
+    background-color: brown;
+    border-radius: 20px;
+}
+.background{
+    height: 600px;
+    background-image: url(background.png);
+    background-size: cover;
+}
+body{
+    height: 1900px;
+}
+button{
+    color: brown;
+    background: none;
+    border: none;
+    font-size: 30px;
+    display: none;
+}
+/*Efectos hover cabecera*/
+.nav-menu a:hover{
+    background-color: brown;
+}
+#sign-in a:hover{
+    background-color: rgb(202, 18, 18);
+}
+/*Primera seccion*/
+.first-section{
+    width: 100%;
+    height: max-content;
+}
+.center-section{
+    max-width: 1192px;
+    margin: 0 auto;
+    height: max-content;
+    display: flex;
+}
+.welcome{
+    display: block;
+    margin: 0 auto;
+    max-width: 1192px;
+    margin-top: 60px;
+}
+.welcome h1{
+    font-family: 'Comfortaa', cursive;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    text-align: center;
+    margin-left: 10px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin-bottom: 0px;
+}
+.text{
+    width: max-content;
+    height: max-content ;
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding: 70px 0px;
+    margin: 0 auto;
+}
+.text h1{
+    font-size: 30px;
+    width: max-content;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px auto;
+    color: brown;
+}
+.text p{
+    width: 670px;
+    padding: 10px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px auto; 
+
+}
+.first-section div{
+    width: max-content;
+    margin: 0 auto;
+}
+.first-section img{
+    height: 360px;
+    margin: 0 auto;
+}
+.text ul{
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.text ul li{
+    margin: 10px 20px 0px 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.text ul hr{
+    border: none;
+    background-color: black;
+    width: 1px;
+    height: 60px;
+    margin-left: 25px;
+}
+.hr-first{
+    width: 600px;
+    height: 10px;
+    background-color: rgb(255, 0, 149);
+    margin: 50px 0px 0px 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.second-section{
+    margin: 0px;
+    background-color: rgb(24, 24, 24);
+    height: 650px;
+    width: 100%;
+}
+
+/*Segunda seccion*/
+.second-section .center-section{
+    max-width: 1192px;
+    display: flex;
+    padding: 60px 0px;
+}
+#main{
+    width: 750px;
+    text-align: center;
+    height: max-content;
+}
+#main h1{
+    font-family: 'Nuosu SIL', serif;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: brown;
+    width: 200px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+#principal{
+    padding: 100px;
+    border-radius: 20px;
+    height: 380px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background: rgba(0, 0, 0, 0.329) url('principal.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    border: solid 2px brown;
+    overflow: hidden;
+}
+#principal h2{
+    font-family: 'Nuosu SIL', serif;
+    padding: 200px 0px 0px 0px;
+    color: white;
+    font-size: 26px;
+}
+.secundary{
+    height: 470px;
+    width: 400px;
+    margin: 10px 0px 0px 50px;
+}
+.secundary div{
+    color: white;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    margin: 30px 0px;
+    height: 120px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    overflow: hidden;
+}
+.secundary div h1{
+    font-family: 'Inconsolata', monospace;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.secundary div p{
+    font-family: 'Raleway', sans-serif;
+    max-width: 100%;
+    font-size: 12px;
+    color: rgb(150, 150, 150);
+} 
+.secundary div section{
+    padding: 10px;
+    margin-right: 60px;
+}
+
+
+/*Efectos hover*/
+#main h1:hover{
+    background-color: rgb(194, 52, 52);
+}
+
+#principal:hover{
+    transform: scale(1.00);
+    -webkit-transform: scale(1.00);
+    -moz-transform: scale(1.00);
+    -ms-transform: scale(1.00);
+    -o-transform: scale(1.00);
+}
+.secundary div:hover{
+    background-color:#26292e;
+}
+.secundary div:hover img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+/*Comienza la tercera sección*/
+
+.third-section{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: max-content;
+}
+.third-section div{
+    width: max-content;
+    height: max-content;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.third-section .center-section section{
+    width: max-content;
+    margin: 100px auto;
+
+}
+.third-section .center-section{
+    height: max-content;
+}
+.third-section .text h1{
+    font-family: 'Poppins', sans-serif;
+    color: brown;
+}
+.third-section img{  
+    height: 450px;
+}
+/*.Comienza la cuarta seccion*/
+.quarter-section .center-section{
+    justify-content: space-between;
+}
+.quarter-section{
+    width: 100%;
+    height: max-content;
+    margin: 0 auto;
+    padding-top: 120px;
+    background-color: rgba(102, 4, 4, 0.192);
+    
+}
+.quarter-section .center-section div{
+    margin: 0 auto;
+    width: max-content;
+}
+.quarter-section .text h1{
+    font-family: 'Raleway', sans-serif;
+}
+.quarter-section img{
+    height: 467px;
+}
+
+/*quienta seccion*/
+.firth-section{
+    width: 100%;
+}
+.firth-section .center-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 500px;
+}
+.carousel {
+    position: relative;
+    margin: 40px auto;
+    height: 400px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#tittle-firth{
+    width: max-content;
+    margin: 60px auto 0px auto;
+    font-size:30px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .carousel__item {
+    height: 400px;
+    width: 900px;
+    background: rgba(129, 24, 24, 0);
+    padding: 1em;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    display: none;
+    border: 1px solid brown;
+    font-family: 'Raleway', sans-serif;
+    z-index: 2;
+  }
+
+  .carousel__item img{
+    width:470px ;
+    padding: 0px;
+    margin-left: 300px;
+    margin-top: 30px;
+  }
+  .carousel__item h1{
+    margin-left: 50px;
+    position: absolute;
+    font-size: 22px;
+    text-transform: uppercase;
+    top: 140px;
+    max-width: 240px;
+    font-family: 'Nuosu SIL', serif;
+  }
+  .carousel__item p{
+    margin-left: 50px;
+    position: absolute;
+    bottom: 40px;
+  }
+  
+  .carousel__item--selected {
+    display: block;
+  }
+  
+  .carousel__nav {
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  
+  .carousel__button {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background: rgba(138, 135, 135, 0.938);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .carousel__button--selected {
+    background: rgb(121, 3, 3);
+}
+.twi{
+    width:470px ;
+    padding: 0px;
+    margin-left: 320px;
+    margin-top: 10px;
+    max-height: 100px;
+}
+.tit{
+    display: none;
+}
+.isnt{
+    height: 1   00px;
+    display: block;
+}
+.secundary a{
+    text-decoration: none;
+}
+.secundary a:visited{
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: max-content;
+    padding-bottom: 10px;
+    height: 500px;
+}
+footer div{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-hr{
+    top: 40px;
+    width: 95%;
+    position: relative;
+    height: 1px;
+    border: none;
+    margin: 0 auto;
+    background-color: white;
+}
+footer ul{
+    margin: 50px;
+    display: flex;
+    list-style: none;
+    margin-left:20px;
+    margin-bottom: 20px;
+}
+footer ul li{
+    margin: 30px 20px;
+    margin-left: 0px;
+}
+footer p{
+    margin-left: 0px;
+    color: rgb(99, 99, 99);
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+footer section{
+    display: flex;
+    margin-left: 10px;
+}
+.footer-text{
+    margin-left: 10px;
+}
+.logo-footer{
+    margin-right: 60px;
+    display: flex;
+}
+.logo-footer h1{
+    line-height: 70px;
+    font-size: 25px;
+}
+footer img{
+    height: 70px;
+}
+.spoti{
+    display: flex;
+    width: 100%;
+   background-color: black;
+    height: 650px;
+    justify-content: space-between;
+}
+.spoti div{
+    max-width: 300px;
+    margin: 120px auto;
+}
+.spoti div h1{
+    color: white;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+.spoti i{
+    color: white;
+    font-size: 50px;
+    margin: 0 40%;
+}
+.spoti img{ 
+    max-width: 300px;
+    margin-top: 0px;
+}
+.spoti iframe{
+    max-width: 100vh;
+    margin-top: 100px;
+    margin-right: 100px;
+    height: 400px;
+}
+
+/*cambio de tamaño*/
+@media (max-width: 1200px) {
+    header{
+        width: 100%;
+        position: fixed;
+        height: 70px;
+    }
+    header div{
+        display: flex;
+    }
+    header img{
+        height: 70px;
+    }
+    header h1{
+        line-height: 70px;
+    }
+    .background{
+        height: 500px;
+        background-image: url(background.png);
+        background-size: cover;
+    }
+    .nav-menu{
+        position: fixed ;
+        text-align: center;
+        height: max-content;
+        background-color: #1a1c1f;
+        line-height: 70px;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        top: 70px;
+        width: 100%;
+        padding: 0%;
+        height: 100%;
+        overflow-y: auto;
+        left: 100%;
+        transition: 0.9s;
+        -webkit-transition: 0.9s;
+        -moz-transition: 0.9s;
+        -ms-transition: 0.9s;
+        -o-transition: 0.9s;
+}
+    .nav-menu ul{
+        flex-direction: column;
+        display: flex;
+        list-style: none;
+    }
+    .nav-menu input{
+        height: 40px;
+        margin: 25px auto;
+        width: 200px;
+        border-radius: 65px;
+        border: 1px solid brown;
+        padding-left: 20px;
+    }
+    #sign-in{
+        width: 71px;
+        margin: 0 auto;
+
+    }
+    #sign-in a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        margin-left: 0px;
+        background-color: brown;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    /*Efectos hover cabecera*/
+    .nav-menu a:hover{
+    background: none;
+    color: brown;
+    }
+    button{
+        display: block;
+        color: brown;
+        margin-right: 10px;
+    }
+    .nav-menu_visible{
+        left: 0%;
+    }
+    .center-section{
+        display: block;
+    }
+    /*Primera seccion*/
+    .welcome h1{
+        margin: 0 auto;
+    }
+    .first-section ul{
+        text-align: center;
+        width: max-content;
+        margin: 0 auto;
+    }
+    .center-section{
+        margin: 0px;
+        padding: 0px;
+    }
+    .first-section img{
+        margin-bottom: 30px;
+    }
+    /*Segunda seccion*/
+    .second-section{
+        height: max-content;
+    }
+    .second-section .center-section{
+        display: block;
+        padding: 60px 0px;
+    }
+    #main{
+        width: max-content;
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+    #main h1{
+        margin: 0 auto;
+        padding: 10px;
+        width: max-content;
+        margin-bottom: 30px;
+    }
+    #principal{
+        height: 350px;
+        width: 650px;
+        margin: 0 auto;
+    }
+    #principal h2{
+        padding: 190px 0px 0px 0px;
+        color: white;
+        font-size: 26px;
+    }
+    .secundary{
+        height: 280px;
+        margin: 10px 0px 0px 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 20px auto;
+    }
+    .secundary div{
+        color: white;
+        width: 100%;
+        margin: 30px 0px;
+        height: 90px;
+        width: 47%;
+        margin: 10px auto;
+        justify-content: space-between;
+    }
+    .secundary div h1{
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .secundary div p{
+        max-width: 100%;
+        font-size: 11px;
+        color: rgb(150, 150, 150);
+    } 
+    .secundary div section{
+        padding: 10px;
+        margin-right: 10px;
+    }
+    
+    /*Efectos hover*/
+    #main h1:hover{
+        background-color: rgb(194, 52, 52);
+    }
+
+    #principal:hover{
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+}
+    .secundary div:hover{
+        background-color:#26292e;
+    }
+    .secundary div:hover img {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+        -moz-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+        -o-transform: scale(1.0);
+}
+        .third-section{
+            height: max-content;
+        }
+        .third-section div{
+            margin: 0 auto;
+            padding: 30px auto;
+        }
+
+        .third-section .center-section section{
+            width: max-content;
+            margin: 0px auto;
+            padding: 0 auto;
+        }
+        .third-section .center-section{
+            display: block;
+        }
+        .third-section img{  
+            height: 450px;
+        }
+        /*cuarta seccion*/
+        .quarter-section .text h1{
+            font-family: 'Raleway', sans-serif;
+        }
+        .quarter-section img{
+            height: 450px;
+        }
+        .quarter-section .text{
+            padding: 0;
+        }
+                        /*quinta seccion*/
+                        .firth-section{
+                            width: 100%;
+                        }
+                        .firth-section .center-section{
+                            max-width: max-content;
+                            margin: 0 auto;
+                            height: 600px;
+                        }
+                        .carousel {
+                            position: static;
+                            margin: 40px auto;
+                          }
+                        #tittle-firth{
+                            width: max-content;
+                            margin: 60px auto 0px auto;
+                            font-size: 25   px;
+                            text-transform: uppercase;
+                          }
+                          
+                          .carousel__item {
+                            height: 400px;
+                            width: 750px;
+                            padding: 0;
+                            font-size: 20px;
+                          }
+                        
+                          .carousel__item img{
+                            width:450px ;
+                            padding: 0px;
+                            margin-left: 150px
+                          }
+                          .carousel__item h1{
+                            margin-left: 50px;
+                            position: static;
+                            font-size: 12px;
+                            margin: 0 auto;
+                            margin-top: 20px;
+                            text-transform: uppercase;
+                            max-width: 270px;
+                            text-align: center;
+                          }
+                          .carousel__item p{
+                            margin-left: 330px;
+                            position: static;
+                            font-size: 15px;
+                            margin-top: 30px;
+                          }
+                          
+                          .carousel__item--selected {
+                            display: block;
+                          }
+                          
+                          .carousel__nav {
+                            width: 100%;
+                            padding: 20px 0;
+                            position: static;
+                            bottom: 0px;
+                            left: 0;
+                            text-align: center;
+                          }
+                          .spoti{
+                            display: flex;
+                            width: 100%;
+                           background-color: black;
+                            height: 650px;
+                            justify-content: space-between;
+                        }
+                        .spoti div{
+                            max-width: 300px;
+                            margin: 120px auto;
+                            margin-right: 10px;
+                        }
+                        .spoti div h1{
+                            color: white;
+                            padding-bottom: 10px;
+                            text-transform: uppercase;
+                            text-align: center;
+                            margin-top: 20px;
+                        }
+                        .spoti i{
+                            color: white;
+                            font-size: 50px;
+                            margin: 0 40%;
+                        }
+                        .spoti img{ 
+                            max-width: 250px;
+                            margin-top: 0px;
+                        }
+                        .spoti iframe{
+                            max-width: 70vh;
+                            margin-top: 100px;
+                            margin-left: 20px;
+                            height: 400px;
+                        }
+                        .tit{
+                            display: block;
+                        }
+                        .twi{
+                            display: none;
+                        }
+                        
+    
+}
+
+/*Tablets*/
+
+@media (max-width: 800px) {
+    /*Primera seccion*/
+    .background{
+        height: 400px;
+        background-image: url(background.png);
+        background-size: cover;
+    }
+    .text h1{
+        margin-top: 0px;
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+    .text p{
+        width: 450px;
+        font: 15px;
+       margin-bottom: 10px;
+       margin-top: 0px;
+    }
+    .hr-first{
+        width: 500px;
+        margin-left: 0px;
+    }
+        /*Segunda seccion*/
+        .second-section{
+            height: 950px;
+        }
+        #main h1{
+            margin: 0 auto;
+            padding: 10px;
+            width: 200px;
+            margin-bottom: 30px;
+        }
+        #principal{
+            height: 300px;
+            width: 450px;
+            margin: 0 auto;
+        } 
+        #principal h2{
+            padding: 100px 0px 0px 0px;
+            color: white;
+            font-size: 26px;
+        }
+        .secundary{
+            display: block;
+        }
+        .secundary div{
+            color: white;
+            margin: 30px 0px;
+            height: 90px;
+            width: 87%;
+            margin: 10px auto;
+            justify-content: space-between;
+        }
+        .secundary div h1{
+            margin-bottom: 29px;
+            font-size: 20px;
+        }
+        .secundary div p{
+            max-width: 100%;
+            font-size: 13px;
+            color: rgb(150, 150, 150);
+        } 
+        .third-section div{
+            margin-top: 0px;
+            padding-top: 10px;
+        }
+        .third-section img{  
+            height: 370px;
+        }
+                /*cuarta seccion*/
+                .quarter-section .text h1{
+                    font-family: 'Raleway', sans-serif;
+                }
+                .quarter-section img{
+                    height: 370px;
+                    margin-left: 80px;
+                }
+                .quarter-section .text{
+                    padding: 0;
+                }
+                /*quinta seccion*/
+                .firth-section{
+                    width: 100%;
+                }
+                .firth-section .center-section{
+                    max-width: max-content;
+                    margin: 0 auto;
+                    height: 450px;
+                }
+                .carousel {
+                    position: static;
+                    margin: 40px auto;
+                  }
+                #tittle-firth{
+                    width: max-content;
+                    margin: 60px auto 0px auto;
+                    font-size: 15px;
+                    text-transform: uppercase;
+                  }
+                  
+                  .carousel__item {
+                    height: 300px;
+                    width: 520px;
+                    padding: 0;
+                    font-size: 20px;
+                  }
+                
+                  .carousel__item img{
+                    width:300px ;
+                    padding: 0px;
+                    margin-left: 100px
+                  }
+                  .carousel__item h1{
+                    margin-left: 50px;
+                    position: static;
+                    font-size: 12px;
+                    margin: 0 auto;
+                    margin-top: 40px;
+                    text-transform: uppercase;
+                    max-width: 270px;
+                    text-align: center;
+                  }
+                  .carousel__item p{
+                    margin-left: 50px;
+                    position: absolute;
+                    bottom: 35px;
+                    font-size: 15px;
+                  }
+                  
+                  .carousel__item--selected {
+                    display: block;
+                  }
+                  
+                  .carousel__nav {
+                    width: 100%;
+                    padding: 20px 0;
+                    position: static;
+                    bottom: 0px;
+                    left: 0;
+                    text-align: center;
+                  }
+                  .spoti{
+                    display: flex;
+                    width: 100%;
+                   background-color: black;
+                    height: 650px;
+                    justify-content: space-between;
+                }
+                .spoti div{
+                    max-width: 300px;
+                    margin: 120px auto;
+                    margin-right: 10px;
+                    margin-left: 30px;
+                }
+                .spoti div h1{
+                    color: white;
+                    padding-bottom: 10px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    margin-top: 20px;
+                    font-size: 15px;
+                }
+                .spoti i{
+                    color: white;
+                    font-size: 50px;
+                    margin: 0 40%;
+                    margin-top: 10px;
+                }
+                .spoti img{ 
+                    max-width: 210px;
+                    margin-top: 0px;
+                }
+                .spoti iframe{
+                    max-width: 50vh;
+                    margin-top: 100px;
+                    margin-left: 0px;
+                    height: 400px;
+                }
+                
+                  
+                  
+
+}
+
+
+
+/*celulares*/
+
+@media (max-width: 570px) {
+    .background{
+        height:230px;
+        background-image: url(Background.png);
+        background-size: cover;
+    }
+    header{
+        width: 100%;
+        height: 50px;
+    }
+    header img{
+        height: 50px;
+    }
+    header h1{
+        line-height: 50px;
+    }
+        .nav-menu{
+        top: 50px;
+}
+    button{
+        color: brown;
+        background: none;
+        border: none;
+        font-size: 22px;
+        padding-top: 10px;
+        height: max-content;
+    }
+
+    /*Primera seccion
+
+    .first-section*/
+    .first-section h1{
+        font-size: 15px;
+    }
+    .welcome{
+        display: block;
+        margin: 0 auto;
+        max-width: 1192px;
+        margin-top: 60px;
+    }
+    .welcome h1{
+        font-family: 'Comfortaa', cursive;
+        padding: 10px;
+        background-color: rgb(0, 0, 0);
+        width: 100px;
+        font-size: 10px;
+    }
+    .text{
+        height: 370px;
+    }
+    .text h1{
+        margin-bottom: 15px;
+    }
+    .text p{
+        width: 300px;
+        font-size: 13px;
+    }
+    .text ul{
+        margin-top: 20px;
+        list-style: none;
+        display: flex;
+        font-size: 15px;
+        margin: 0px auto;
+    }
+    .text ul li{
+        margin: 4px 20px 0px 10px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+    }
+    .text ul hr{
+        width: 1px;
+        height: 30px;
+        margin-left: 5px;
+    }
+    .hr-first{
+        width: 300px;
+        height: 10px;
+        margin: 20px auto;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .first-section img{
+        height: 200px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .text{
+        max-height: 270px;
+        padding-top: 20px;
+    }   
+
+
+            /*Segunda seccion*/
+            
+            #main h1{
+                margin: 0 auto;
+                padding: 10px;
+                width: 150px;
+                margin-bottom: 30px;
+                font-size: 15px;
+            }
+            #principal{
+                height: 200px;
+                width: 300px;
+                margin: 0 auto;
+            } 
+            .secundary{
+                height: 280px;
+                margin: 10px 0px 0px 50px;
+                display: block;
+                width: 100%;
+                margin: 20px auto;
+            }
+            #principal h2{
+                padding: 40px 0px 0px 0px;
+                color: white;
+                font-size: 19px;
+            }
+            .secundary div{
+                color: white;
+                margin: 30px 0px;
+                height: 90px;
+                width: 87%;
+                margin: 10px auto;
+                justify-content: space-between;
+            }
+            .secundary div h1{
+                margin-bottom: 30px;
+                font-size: 15px;
+            }
+            .secundary div p{
+                max-width: 100%;
+                font-size: 10px;
+                color: rgb(150, 150, 150);
+            } 
+            .secundary div section{
+                padding: 10px;
+                margin-right: 10px;
+            }
+            .second-section{
+                height: 800px;
+            }
+            .third-section img{  
+                height: 230px;
+            }
+            .third-section h1{
+                font-size: 15px;
+            }
+                            /*cuarta seccion*/
+                            .quarter-section .text h1{
+                                font-family: 'Raleway', sans-serif;
+                            }
+                            .quarter-section img{
+                                height: 270px;
+                                margin-left: 40px;
+                            }
+                            .quarter-section .text{
+                                padding: 0;
+                                height: max-content;
+                            }
+                            /*quinta seccion*/
+                            #tittle-firth{
+                                width: max-content;
+                                margin: 60px auto 0px auto;
+                                font-size: 14px;
+                                text-transform: uppercase;
+                              }
+                              
+                              .carousel__item {
+                                height: 250px;
+                                width: 300px;
+                                }
+                            
+                              .carousel__item img{
+                                width:200px ;
+                                padding: 0px;
+                                margin-left: 50px
+                              }
+                              .carousel__item h1{
+                                margin-left: 50px;
+                                position: static;
+                                font-size: 12px;
+                                margin: 0 auto;
+                                margin-top: 20px;
+                                text-transform: uppercase;
+                                max-width: 270px;
+                                text-align: center;
+                              }
+                              .carousel__item p{
+                                position: static;;
+                                margin-left: 120px;
+                                font-size: 12px;
+                                margin-top: 20px;
+                              }
+                              
+                              .carousel__item--selected {
+                                display: block;
+                              }
+                              
+                              .carousel__nav {
+                                width: 100%;
+                                padding: 20px 0;
+                                position: static;
+                                bottom: 0px;
+                                left: 0;
+                                text-align: center;
+                              }
+                              footer ul li{
+                                margin: 30px 12px;
+                                margin-left: 0px;
+                                font-size: 10px;
+                            }
+                            footer ul{
+                                margin: 50px;
+                                margin-right: 5px;
+                                display: flex;
+                                list-style: none;
+                                margin-left:20px;
+                                margin-bottom: 20px;
+                            }
+                            footer p{
+                                font-size: 10px;
+                            }
+                            .firth-section .center-section{
+                                max-width: max-content;
+                                margin: 0 auto;
+                                height: 350px;
+                            }
+                            .spoti{
+                                display: block;
+                                width: 100%;
+                               background-color: black;
+                                height: 650px;
+                                justify-content: space-between;
+                                margin-top: -45px;
+                            }
+                            .spoti div{
+                                max-width: max-content;
+                                margin: 120px auto;
+                                margin-right: 10px;
+                                margin-left: 30px;
+                                margin: 40px  auto;
+                            }
+                            .spoti div h1{
+                                color: white;
+                                padding-bottom: 10px;
+                                text-transform: uppercase;
+                                text-align: center;
+                                margin-top: 20px;
+                                padding: 40px 0;
+                                font-size: 15px;
+                            }
+                            .spoti i{
+                                color: white;
+                                font-size: 50px;
+                                margin: 0 40%;
+                                margin-top: 10px;
+                                display: none;
+                            }
+                            .spoti img{ 
+                                max-width: 210px;
+                                margin-top: 0px;
+                                display: none;
+                            }
+                            .es{
+                                width: 100%;
+                            }
+                            .spoti iframe{
+                                position: static;
+                                display: block;
+                                width: 45vh;
+                                margin-top: -50px;
+                                height: 400px;
+                                 margin: 0 auto;
+                            }
+                            
+
+                            
+                            
+}
+body{
+    overflow-x: hidden;
+}

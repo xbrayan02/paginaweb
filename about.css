@@ -1,0 +1,389 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1900px;
+    overflow-x: hidden;
+}
+.logo h1{
+    color: white;
+    line-height: 90px;
+}
+header {
+    width: 100%;
+    background-color: rgba(2, 2, 2, 0.938);
+}
+header .center{
+    z-index: 2;
+    display: flex;
+    max-width: 1292px;
+    margin: 0 auto;
+    height: 90px;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    margin-left: 50px;
+}
+.logo img{
+    height: 90px;
+    margin: 0 10px;
+}
+header nav{
+    display: flex;
+    margin: 0 10px;
+    width: max-content;
+}
+header nav ul{
+    display: flex;
+    line-height: 90px;
+    margin-right: 30px;
+    list-style: none;
+}
+header nav ul li, #sigin{
+    margin: 0 25px;
+}
+header nav ul li a, #sigin{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+#sigin{
+    line-height: 90px;
+    list-style: none;
+}
+header nav ul li a:hover, #sigin:hover{
+    background-color: brown;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+header nav input{
+    height: 40px;
+    margin: 25px 0px;
+    padding-left: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.round{
+    background-image:url("https://www.riotgames.com/darkroom/1600/b60006aeefe6e62d94663ebc8167c231:4415e75e3ee0a5c0c76a5feef3d7b82d/scb-6256.jpg");
+    width: 100%;
+    height: 88vh;
+    background-size: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+.ht{
+    width: max-content;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 200px;
+    z-index: 1;
+    left: 100px;
+    width: 350px;
+    text-align: center;
+    text-shadow: 3px 3px 0px rgb(253, 253, 253);
+}
+.th{
+    width: max-content;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 130px;
+    z-index: 1;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    left: 230px;
+    width: max-content;
+    font-size: 20px;
+    background-color: #000000;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.hh{
+    width: max-content;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 330px;
+    z-index: 1;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    left: 160px;
+    width: max-content;
+    font-size: 20px;
+    background-color: #bd4812;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.first{
+    width: 100%;
+    margin: 00px auto 00px auto;
+    height: 650px;
+    display: flex;
+    background-color: #000000;
+    color: #ecf2fe;
+}
+.first h1{
+    margin-left: 150px;
+    font-size: 30px;
+    text-align: left;
+    padding-top: 200px;
+    max-width: 450px;
+}
+.first img{
+    margin-left: 150px;
+   font-size: 20px;
+    max-width: 900px;
+    margin-top: 50px;
+    height: 500px;
+    margin-top: 150px;
+    text-align: justify;
+
+}
+
+.info{
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 700px;
+    background-size: cover;
+    margin-bottom: 0px;
+    display: flex;
+    background-color: #ffffff;
+}
+.info .a{
+    margin: 100px  50px 100px 100px;
+    max-width: 600px;
+    height: 600px;
+}
+.info .a h1{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.info .a p{
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    text-align: justify;
+}
+.info .i{
+    width: max-content;
+    margin: 40px auto;
+    height: 450px;
+}
+.info div{
+    display: flex;
+    margin: 20px 0px ;
+}
+.info img{
+    width: 200px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-right: 20px;
+    margin-left: 80px;
+}
+.info .i h1{
+    text-transform: uppercase;
+    width: max-content;
+    margin: 40px auto 5px auto;
+    text-align: center;
+}
+.info .i p{
+    text-align: center;
+    color: #465a93;
+}
+.info .i div section{
+    width: 200px;
+}
+.a img {
+    width: 500px;
+}
+.abaut{
+    background-image: url(ba.png);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+}
+.abaut div{
+    max-width: 600px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    top: 150px;
+    border-radius: 10px;
+    left: 100px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.abaut h1{
+    padding: 50px ;
+    font-size: 30px;
+}
+.abaut p{
+    padding: 50px ;
+    font-size: 24px;
+}
+.comnu{
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 650px;
+    background-color: #ecf2fe;
+    display: flex;
+}
+.comnu div{
+    width: 400px;
+    margin: 200px 150px;
+}
+.comnu div h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.comnu div p{
+    text-align: justify;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.comnu img{
+    margin: 100px 0;
+  height: 400px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: max-content;
+    padding-bottom: 10px;
+    height: 500px;
+}
+footer div{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-hr{
+    top: 40px;
+    width: 95%;
+    position: relative;
+    height: 1px;
+    border: none;
+    margin: 0 auto;
+    background-color: white;
+}
+footer ul{
+    margin: 50px;
+    display: flex;
+    list-style: none;
+    margin-left:20px;
+    margin-bottom: 20px;
+}
+footer ul li{
+    margin: 30px 20px;
+    margin-left: 0px;
+}
+footer p{
+    margin-left: 0px;
+    color: rgb(99, 99, 99);
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+footer section{
+    display: flex;
+    margin-left: 10px;
+}
+.footer-text{
+    margin-left: 10px;
+}
+.logo-footer{
+    margin-right: 60px;
+    display: flex;
+}
+.logo-footer h1{
+    line-height: 70px;
+    font-size: 25px;
+}
+footer img{
+    height: 70px;
+}
+body{
+    overflow-x: hidden;
+}
+.encuesta{
+    padding: 120px 200px;
+    height: 400px;
+    background: linear-gradient(rgba(190, 190, 190, 0.815), rgba(235, 232, 232, 0.7)), url('https://dthezntil550i.cloudfront.net/48/latest/482105280916050630020124756/1280_960/8c2544cb-c205-4f01-8259-6cc5878b8cbe.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: 'Arima', cursive;
+    margin-top: 50px;
+    
+}
+.encuesta h1{
+    max-width: 500px;
+    font-size: 35px;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.encuesta p{
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+}
+.encuesta button{
+    margin: 0 54vh;
+    width: 250px;
+    margin-top: 40px;
+    padding: 12px 17px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    font-family: 'Arima', cursive;
+    -o-border-radius: 5px;
+    display: block  ;
+    font-size: 15px;
+}
+.encuesta h2{
+    margin: 10px 50vh;
+    text-align: center;
+}
+.encuesta input{
+    margin: 0px 54vh;
+    width: 250px;
+    height: 30px;
+}
+textarea{
+    margin: 0px 50vh;
+    width: 300px;
+    height: 100px;
+}

@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    z-index: 1  ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+    position: fixed;
+    top: 0;
+    background-color: rgb(250, 250, 250);
+}
+.center{
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    max-width: 1192px;
+    justify-content: space-between;
+    z-index: 2;
+    background-color: rgb(250, 250, 250);
+}
+header div{
+    display: flex;
+}
+header img{
+    height: 90px;
+}
+header h1{
+    line-height: 90px;
+    color: black;
+    font-family: 'Comfortaa', cursive;
+}
+.nav-menu{
+    list-style: none;
+    line-height: 90px;
+    display: flex;
+}
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+}
+.nav-menu ul li{
+    min-width: 120px;
+}
+.nav-menu ul li a{
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.nav-menu input{
+    font-family: 'Nuosu SIL', serif;
+    height: 40px;
+    margin: 25px auto;
+    width: 200px;
+    border-radius: 65px;
+    border: 1px solid brown;
+    padding-left: 20px;
+    background-image: url(lupa.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-x: 160px;
+    background-position-y: 10px;
+}
+#sign-in{
+    list-style: none;
+    text-align: right;
+    max-width: 400px;
+}
+#sign-in a{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-left: 15px;
+    background-color: brown;
+    border-radius: 20px;
+}
+.background{
+    height: 600px;
+    background-image: url(background.png);
+    background-size: cover;
+}
+body{
+    height: 1900px;
+}
+button{
+    color: brown;
+    background: none;
+    border: none;
+    font-size: 30px;
+    display: none;
+}
+/*Efectos hover cabecera*/
+.nav-menu a:hover{
+    background-color: brown;
+}
+#sign-in a:hover{
+    background-color: rgb(202, 18, 18);
+}
+
+.title{
+    margin: 120px 100px 20px ;
+}
+.first{
+   overflow: hidden;
+   width: 95vw;
+   margin: 0 auto;
+   height: 65vh;
+   border: 1px solid rgb(0, 0, 0);
+   display: flex;
+   border-radius: 5px ;
+   -webkit-border-radius: 5px ;
+   -moz-border-radius: 5px ;
+   -ms-border-radius: 5px ;
+   -o-border-radius: 5px ;
+}
+.first img{
+    width: 60vw;
+}
+.first div{
+    margin: 0 auto;
+}
+.first div h1{
+    margin: 120px auto 0px auto;
+    width: 350px;
+    font-family: 'Arima', cursive;
+}
+.first div p{
+    width: 350px;
+    margin: 30px auto ;
+    font-family: 'Arima', cursive;
+}
+.second{
+    max-width: 1400px;
+    margin: 50px auto;
+    height: 400px;
+    display: flex;
+}
+.second div{
+    border-radius: 10px;
+    height: 350px;
+    width: 300px;
+    margin: 30px 20px;
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+}
+.second div img{
+    width: 300px;
+    height: 180px;
+}
+.second div h1{
+   font-size: 20px;
+   margin: 10px;
+}
+.second div section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    margin-top: 80px;
+ }
+ .second div section h2{
+    font-size: 15px;
+ }
+ .second div section p{
+    font-size: 15px;
+    bottom: 10px;
+    font-family: 'Arima', cursive;
+ }
+
+.tres{
+    background-color: rgb(8, 8, 8);
+    max-width: 1400px;  
+    height: 500px;
+ }
+.tres h1{
+    color: white;
+    padding: 50px 0 40px 620px;
+    text-transform: uppercase;
+    font-family: 'Arima', cursive;
+}
+.conteiner{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.conteiner div{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 5px;
+    color: rgb(189, 189, 189);
+    background-color: rgba(32, 32, 32, 0.493);
+    overflow: hidden;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.conteiner img{
+    width: 300px;
+    height: 180px;
+}
+.conteiner h2{
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 25px;
+}
+.conteiner p{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 3px;
+    font-family: 'Arima', cursive;
+}
+.conteiner hr{
+    border: none;
+    color: white;
+    height: 1px;
+    background-color: whitesmoke;
+    width: 80%;
+    margin: 0% auto;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: max-content;
+    padding-bottom: 10px;
+    height: 500px;
+}
+footer div{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-hr{
+    top: 40px;
+    width: 95%;
+    position: relative;
+    height: 1px;
+    border: none;
+    margin: 0 auto;
+    background-color: white;
+}
+footer ul{
+    margin: 50px;
+    display: flex;
+    list-style: none;
+    margin-left:20px;
+    margin-bottom: 20px;
+}
+footer ul li{
+    margin: 30px 20px;
+    margin-left: 0px;
+}
+footer p{
+    margin-left: 0px;
+    color: rgb(99, 99, 99);
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+footer section{
+    display: flex;
+    margin-left: 10px;
+}
+.footer-text{
+    margin-left: 10px;
+}
+.logo-footer{
+    margin-right: 60px;
+    display: flex;
+}
+.logo-footer h1{
+    line-height: 70px;
+    font-size: 25px;
+}
+footer img{
+    height: 70px;
+}
+body{
+    overflow-x: hidden;
+}
+.roman{
+    margin-top: 0px;
+}
+.clase{
+    display: block;
+}
+.clase img{
+    height: 200px;
+    margin-left: 60px;
+}
+.clase h1{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.categories a:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
